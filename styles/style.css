@@ -1,0 +1,171 @@
+/*-------font-------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* ---------------------------
+        common styles
+--------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    
+}
+
+/*-----------------------
+     header-section
+-----------------------*/
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2D25A0;
+    column-gap: 102px;
+    margin-bottom: 70px;
+
+}
+
+.header-title{
+    margin-left:156px;
+}
+
+.header-title h2{
+    color:#FFFFFF;
+    font-size: 64px;
+    font-weight:700;
+}
+
+.link-button{
+    text-decoration: none;
+    font-size: 16px;
+    background: #E02C6D;
+    color:#FFFFFF;
+    padding:10px 24px;
+    
+}
+
+.link-button:hover{
+    padding: 18px 26px;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #E02C6D;
+} 
+
+.header-slider img{
+    width:556px;
+    height:456px;
+
+}
+
+/*---------------------
+      players-section
+------------------------*/
+.players-container{
+    
+    margin-top:70px;
+    margin-left: 180px;
+    margin-right:210px;
+    
+} 
+
+
+
+.players-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:30px;
+    row-gap:27px;
+    width: 330px;
+   
+
+  }
+
+
+.players{
+    
+    width:330px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    /* margin-top:70px;
+   
+    row-gap: 27px;
+    column-gap: 30px;
+    background-color:#FFFFFF; */
+    /* margin-left: auto;
+    margin-right: auto; */
+   
+  }
+
+  .player-info{
+    width:300px;
+    padding:15px 15px;
+  
+  }
+
+
+  .player-info img{
+      width:100%;
+    /* width:300px;
+    height:256px; */
+  }
+
+
+.player-info h2{
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    /* text-align: left; */
+
+  }
+
+.player-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
+  }
+
+
+
+/*----------------
+    footer section 
+------------------*/
+
+.buttom-logo{
+   text-align: center;
+    
+}
+
+.buttom-logo img{
+    display: block;
+    width:484px;
+    height:110px;
+    margin: 20px auto 10px auto;
+}
+
+/* social icon section */
+.social-icons{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.social-icons a{
+        text-emphasis: none;
+        color:#969BAB;
+        font-size:16px;
+        margin:0px 14px 0px 0px;
+        padding:8px 10px;
+        background-color: #dfd9d9;
+        border-radius: 50%;
+
+
+}
+
+
+/* footer title section */
+.foot-title p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}

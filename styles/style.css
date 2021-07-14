@@ -20,6 +20,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
+    padding:153px 0px 86px 0px; 
     column-gap: 102px;
     margin-bottom: 70px;
 
@@ -27,6 +28,7 @@ body{
 
 .header-title{
     margin-left:156px;
+
 }
 
 .header-title h2{
@@ -53,6 +55,7 @@ body{
 .header-slider img{
     width:556px;
     height:456px;
+
 
 }
 
@@ -85,8 +88,8 @@ body{
     width:330px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    
     /* margin-top:70px;
-   
     row-gap: 27px;
     column-gap: 30px;
     background-color:#FFFFFF; */

@@ -172,3 +172,34 @@ body{
     font-weight: 400;
     font-size: 18px;
 }
+
+
+
+
+
+/* Latest Update */
+.updates{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+}
+
+.team{
+    background-color: rgb(255 255 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px lightgrey;
+    padding: 10px;
+   
+}
+#latest{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.team .team-banner img{
+    width: 400px;
+    height: 300px;
+}
+
+
+

@@ -123,54 +123,8 @@ body{
 
 
 
-/*----------------
-    footer section 
-------------------*/
 
-.buttom-logo{
-   text-align: center;
-    
-}
-
-.buttom-logo img{
-    display: block;
-    width:484px;
-    height:110px;
-    margin: 20px auto 10px auto;
-}
-
-/* social icon section */
-.social-icons{
-    text-align: center;
-    margin-bottom: 20px;
-    
-}
-
-.social-icons a{
-        text-emphasis: none;
-        color:#969BAB;
-        font-size:16px;
-        margin:0px 14px 0px 0px;
-        padding:8px 10px;
-        background-color: #dfd9d9;
-        border-radius: 50%;
-
-
-}
-
-
-/* footer title section */
-.foot-title p{
-    text-align: center;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-
-
-
-
-/* Latest Update */
+/*-------Latest Update -------*/
 .updates{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -230,6 +184,53 @@ body{
     width:100%;
     height:90%;
 }
+
+
+/*----------------
+    footer section 
+------------------*/
+
+.buttom-logo{
+   text-align: center;
+    
+}
+
+.buttom-logo img{
+    display: block;
+    width:484px;
+    height:110px;
+    margin: 20px auto 10px auto;
+}
+
+/* social icon section */
+.social-icons{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.social-icons a{
+        text-emphasis: none;
+        color:#969BAB;
+        font-size:16px;
+        margin:0px 14px 0px 0px;
+        padding:8px 10px;
+        background-color: #dfd9d9;
+        border-radius: 50%;
+
+
+}
+
+
+/* footer title section */
+.foot-title p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
 
 
 

@@ -175,7 +175,8 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
-    margin-bottom: 35px;
+    margin:0px 10px 35px 10px;
+   
 }
 
 .team{
@@ -189,6 +190,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    padding: 20px;
 }
 .team .team-banner img{
     width: 400px;
